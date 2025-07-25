@@ -45,7 +45,7 @@ if st.button('submit') and typed_text:
     st.write(f"📝 Words Per Minute (WPM): **{wpm}**")
     st.write(f"🎯 Accuracy: **{accuracy}%**")
 
-    st.session_state.complited = True
+    st.session_state.completed = True
 
 if st.session_state.completed:
     if st.button('Try Again'):
