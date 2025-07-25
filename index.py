@@ -52,4 +52,4 @@ if st.session_state.completed:
         st.session_state.start_time = None
         st.session_state.original_text = r.choice(sentences)
         st.session_state.completed = False
-        st.experimental_rerun()
+        st.rerun()
